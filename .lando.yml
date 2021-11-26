@@ -1,0 +1,28 @@
+name: antwerp-armadillos
+
+services:
+  webserver:
+    type: php:8.0
+    via: apache
+    ssl: true
+    webroot: .
+
+  mailserver:
+    type: mailhog
+    portforward: true
+
+# proxy:
+#   webserver:
+#     - armadillos.lndo.site
+#   mailserver:
+#     - mail-armadillos.lndo.site
+
+tooling:
+  npm:
+    service: node
+  node:
+    service: noder
+  yarn:
+    service: node
+  gulp:
+    service: node
