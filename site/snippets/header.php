@@ -16,9 +16,9 @@
             <h1><?php echo $site->title() ?><h1>
         </a>
 
-        <div class="nav--links">
+        <nav class="nav--links">
             <?php foreach ($site->children()->listed() as $links) : ?>
                 <a class="nav--links-link" href=<?php echo $links->url() ?>><?php echo $links->title() ?></a>
             <?php endforeach ?>
-        </div>
+        </nav>
     </header>
