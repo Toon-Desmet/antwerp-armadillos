@@ -1,0 +1,17 @@
+title: Training
+
+sections:
+  info:
+    type: fields
+    fields: 
+      jeugd:
+        type: textarea
+      mannen:
+        type: textarea
+      vrouwen:
+        type: textarea
+      interesse:
+        type: textarea
+      locatie:
+        type: text
+      

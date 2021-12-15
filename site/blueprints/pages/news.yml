@@ -1,0 +1,8 @@
+title: news
+
+sections:
+  posts:
+    type: pages
+    layout: cards
+    image:
+      cover: true
