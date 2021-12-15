@@ -8,6 +8,7 @@
     <link rel="icon" type="image/jpg" href="/assets/images/Armadillos_logo_500x500.jpg" />
     <title><?= $page->Title() ?> | Antwerp Armadillos</title>
     <?= css('assets/css/index.css') ?>
+    <?= css('@auto') ?>
 </head>
 
 <body>
