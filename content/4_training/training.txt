@@ -1,1 +1,16 @@
 Title: Trainingen
+----
+jeugd: Voorlopig geen trainingen
+----
+mannen: Maandag van 20.00 uur tot 22.00 uur
+Woensdag van 20.00 uur tot 22.00 uur
+----
+vrouwen:Maandag van 20.00 uur tot 22.00 uur
+Woensdag van 20.00 uur tot 22.00 uur
+----
+interesse: Ons jeugdteam is in volle opbouw!
+Zoek je een nieuwe, toffe sport? 
+En lijkt lacrosse helemaal je ding, 
+Schrijf je dan in!
+----
+Locatie: Albert Einsteinlaan 50, 2660 Antwerpen
