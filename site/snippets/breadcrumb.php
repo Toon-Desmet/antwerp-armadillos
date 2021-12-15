@@ -8,6 +8,6 @@
             echo "/";
         }
     ?>
-        <a href="<?= $crumb->url() ?>"><?= $crumb->title() ?></a>
+        <a href="<?= $crumb->url() ?>"><?= $crumb->title()->lower() ?></a>
     <?php endforeach; ?>
 </breadcrumb>
