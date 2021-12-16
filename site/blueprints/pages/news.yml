@@ -1,8 +1,19 @@
 title: news
 
 sections:
-  posts:
+  drafts:
+    headline: Drafted posts
     type: pages
     layout: cards
+    template: post
+    status: drafts
+    image:
+      cover: true
+  posts:
+    headline: Published posts
+    type: pages
+    layout: cards
+    template: post
+    status: published
     image:
       cover: true
