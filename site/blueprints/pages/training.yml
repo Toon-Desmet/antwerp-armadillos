@@ -12,6 +12,5 @@ sections:
         type: textarea
       interesse:
         type: textarea
-      locatie:
-        type: text
-      
+      location: 
+        type: locator

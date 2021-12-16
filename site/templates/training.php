@@ -29,10 +29,10 @@
 
     <location>
         <h2>Locatie</h2>
-        <?php if ($page->googlemap()->isNotEmpty()) : ?>
-            <?= $page->googlemap() ?>
-        <?php else : ?>
-            <?= $page->locatie() ?>
+        <?php
+        $location = $page->location()->yaml();
+        if ($location) : ?>
+            <P><?= $location['address'], ", ", $location['postcode'], " ", $location['city'] ?></P>
         <?php endif ?>
     </location>
 </main>

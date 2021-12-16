@@ -29,4 +29,17 @@ Schrijf je dan in!
 
 ----
 
+Location:
+
+lat: 51.1704812
+lon: 4.3707004
+city: Antwerpen
+region: Antwerpen
+country: België
+postcode: "2660"
+address: Albert Einsteinlaan
+osm: 253581927
+
+----
+
 Locatie: Albert Einsteinlaan 50, 2660 Antwerpen
