@@ -48,3 +48,9 @@ Icon
 # ---------------
 
 /site/config/.license
+
+# Composer vendor
+/vendor
+
+# Kirby folder
+/kirby
