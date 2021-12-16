@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c6bd52c527c9881af50b3fad797f62e",
+    "content-hash": "ff5de0f4b089c7402a3af80ea72fe8d5",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -606,6 +606,44 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "sylvainjule/locator",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-locator.git",
+                "reference": "73553ece28d6c92e6075a240917de8c1cb5a368a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-locator/zipball/73553ece28d6c92e6075a240917de8c1cb5a368a",
+                "reference": "73553ece28d6c92e6075a240917de8c1cb5a368a",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "locator"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                }
+            ],
+            "description": "A map & geolocation field, built on top of open-source services / Mapbox",
+            "support": {
+                "issues": "https://github.com/sylvainjule/kirby-locator/issues",
+                "source": "https://github.com/sylvainjule/kirby-locator/tree/1.0.9"
+            },
+            "time": "2021-11-24T12:51:12+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
