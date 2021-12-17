@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="/assets/images/Armadillos_logo_500x500.jpg" />
-    <title><?= $page->Title() ?> | Antwerp Armadillos</title>
+    <?php if ($page->isHomePage()) : ?>
+        <title><?= $site->Title() ?></title>
+    <?php else : ?>
+        <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
+    <?php endif ?>
     <?= css('assets/css/index.css') ?>
     <?= css('@auto') ?>
 </head>
