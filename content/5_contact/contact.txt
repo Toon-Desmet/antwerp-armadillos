@@ -1,1 +1,8 @@
 Title: Contact
+----
+custom_title: Contact us:
+----
+lacrosse_info: Voor meer info over lacrosse 
+
+----
+training_info: Voor meer info over onze trainingen 
