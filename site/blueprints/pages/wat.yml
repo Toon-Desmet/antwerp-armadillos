@@ -1,0 +1,17 @@
+title: Wat is lacrosse
+
+fields: 
+  tabs:
+    label: Info over Lacrosse
+    type: structure
+    fields:
+      title: 
+        type: text
+      text: 
+        type: textarea
+      image:
+        type: files
+  
+  info_text:
+    label: Info text
+    type: textarea
