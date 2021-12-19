@@ -18,7 +18,8 @@
 <body>
     <header>
         <a href="<?php echo $site->url() ?>">
-            <h1><?php echo $site->title() ?><h1>
+            <!-- //TODO change title to armadillos logo-->
+            <h1><?= $site->title() ?><h1>
         </a>
 
         <nav class="nav--links">
