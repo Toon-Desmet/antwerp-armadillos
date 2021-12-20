@@ -1,13 +1,194 @@
 title: Team
-
 tabs:
+# bestuur tab
   bestuur:
     label: Bestuur
-    
-  
-  dames:
-    label: Dames
-       
+    icon: user
+    columns:
+
+      # adding a team member
+      add_member:
+        label: Add team member
+        width: 1/3
+        sections:
+          unpublished_team:
+            headline: Unpublished team members 
+            type: pages
+            templates: team_member
+            status: draft
+
+          all_team:
+            headline: All team members
+            type: pages
+            template: team_member
+            status: published
+
+      # Dislplay bestuurs leden
+      bestuur_members:
+        width: 2/3
+        sections:
+          bestuursleden:
+            type: pagesdisplay
+            label: Bestuursleden
+            query: page.children.filterBy("board", true) 
+            info: '{{page.board_function}}'
+# heren tab
   heren:
-    label: Heren
-    
+    label: heren
+    icon: user
+    columns:
+
+      # adding a team member
+      add_member:
+        label: Add team member
+        width: 1/3
+        sections:
+          unpublished_team:
+            headline: Unpublished team members 
+            type: pages
+            templates: team_member
+            status: draft
+
+          all_team:
+            headline: All team members
+            type: pages
+            template: team_member
+            status: published
+
+      heren_members:
+        width: 2/3
+        sections: 
+          coaching_heren:
+            headline: Coaching staff
+            type: pagesdisplay
+            query: page.children.filterBy("coaching_team", "Heren")
+            info: '{{page.coaching_function}}'
+                     
+          Attack_heren:
+            headline: Attack
+            type: pagesdisplay
+            query: page.children.filterBy('gender','male').filterBy('position','Attack')
+            info: '{{page.position}}'
+          Midfield_heren:
+            headline: Midfield
+            type: pagesdisplay
+            query: page.children.filterBy('gender','male').filterBy('position','Midfield')
+            info: '{{page.position}}'
+          Defence_heren:
+            headline: Defence
+            type: pagesdisplay
+            query: page.children.filterBy('gender','male').filterBy('position','Defence')
+            info: '{{page.position}}'
+          Goalie_heren:
+            headline: Goalie
+            type: pagesdisplay
+            query: page.children.filterBy('gender','male').filterBy('position','Goalie')
+            info: '{{page.position}}'
+
+# dames tab
+  dames:
+    label: dames
+    icon: user
+    columns:
+
+      # adding a team member
+      add_member:
+        label: Add team member
+        width: 1/3
+        sections:
+          unpublished_team:
+            headline: Unpublished team members 
+            type: pages
+            templates: team_member
+            status: draft
+
+          all_team:
+            headline: All team members
+            type: pages
+            template: team_member
+            status: published
+
+      dames_members:
+        width: 2/3
+        sections:       
+          coaching_dames:
+            type: pagesdisplay
+            label: Coaching staff
+            query: page.children.filterBy("coaching_team", "Dames")
+            info: '{{page.coaching_function}}'
+                     
+          Attack_dames:
+            headline: Attack
+            type: pagesdisplay
+            query: page.children.filterBy('gender','female').filterBy('position','Attack')
+            info: '{{page.position}}'
+          Midfield_dames:
+            headline: Midfield
+            type: pagesdisplay
+            query: page.children.filterBy('gender','female').filterBy('position','Midfield')
+            info: '{{page.position}}'
+          Defence_dames:
+            headline: Defence
+            type: pagesdisplay
+            query: page.children.filterBy('gender','female').filterBy('position','Defence')
+            info: '{{page.position}}'
+          Goalie_dames:
+            headline: Goalie
+            type: pagesdisplay
+            query: page.children.filterBy('gender','female').filterBy('position','Goalie')
+            info: '{{page.position}}'
+# jeugd tab
+  jeugd:
+    label: jeugd
+    icon: user
+    columns:
+
+      # adding a team member
+      add_member:
+        label: Add team member
+        width: 1/3
+        sections:
+          unpublished_team:
+            headline: Unpublished team members 
+            type: pages
+            templates: team_member
+            status: draft
+
+          all_team:
+            headline: All team members
+            type: pages
+            template: team_member
+            status: published
+
+      jeugd_members:
+        width: 2/3
+        sections:       
+          coaching_jeugd:
+            type: pagesdisplay
+            label: Coaching staff
+            query: page.children.filterBy("coaching_team", "jeugd")
+            info: '{{page.coaching_function}}'
+                     
+          Attack_jeugd:
+            headline: Attack
+            type: pagesdisplay
+            query: page.children.filterBy('jeugd',true).filterBy('position','Attack')
+            info: '{{page.position}}'
+          Midfield_jeugd:
+            headline: Midfield
+            type: pagesdisplay
+            query: page.children.filterBy('jeugd',true).filterBy('position','Midfield')
+            info: '{{page.position}}'
+          Defence_jeugd:
+            headline: Defence
+            type: pagesdisplay
+            query: page.children.filterBy('jeugd',true).filterBy('position','Defence')
+            info: '{{page.position}}'
+          Goalie_jeugd:
+            headline: Goalie
+            type: pagesdisplay
+            query: page.children.filterBy('jeugd',true).filterBy('position','Goalie')
+            info: '{{page.position}}'
+            
+
+ 

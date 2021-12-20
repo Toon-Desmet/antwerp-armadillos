@@ -1,0 +1,153 @@
+title: Team members
+
+columns:
+  left:
+    width: 2/3
+    sections:
+      # sections in the left column
+      
+      info:
+        type: fields
+        fields:
+        # Algemene info
+          headline_general:
+            type: headline
+            label: Algemene info
+            numbered: false
+            when:
+              coaching: true
+          fname:
+            label: Voornaam
+            type: text
+            width: 1/3
+            required: true
+          lname:
+            label: Achternaam
+            type: text
+            width: 1/3
+            required: true
+
+          gender:
+            label: Geslacht
+            type: select
+            width: 1/4
+            required: true
+            options:
+              male: Heer
+              female: Dame
+              other: Overig
+          birthday:
+            type: date
+            label: geboorte datum
+            width: 1/4
+          joined:
+            label: lid sinds
+            type: number
+            min: 2008
+            width: 1/4
+            step: 1
+          # Bestuurs functies
+          line-c:
+            type: line 
+            when: 
+              board: true
+          board_function:
+            label: Bestuurs functie
+            type: text
+            when: 
+              board: true
+            
+          # Coaching functies
+          line-b:
+            type: line 
+            when:
+              coaching: true
+          coaching_team:
+            label: Coach van welk team?
+            type: select
+            width: 1/2
+            required: true
+            when:
+              coaching: true
+            options:
+              - Jeugd
+              - Dames
+              - Heren   
+          coaching_function:
+            label: Coaching functie
+            type: text
+            width: 1/2
+            when: 
+              coaching: true
+          
+          # player functies 
+          line-a:
+            type: line 
+            when: 
+              player: true
+          position:
+            label: Speler positie
+            type: select
+            when: 
+              player: true
+            options:
+              - Attack
+              - Midfield
+              - Defence
+              - Goalie
+
+
+
+
+  right:
+    width: 1/3
+    sections:
+      # sections in the right column
+      options:
+        type: fields
+        fields:
+          board:
+            label: Bestuurslid?
+            type: toggle
+            width: 1/4
+            text:
+                - Nee
+                - Ja
+
+          coaching:
+            label: Coaching staff?
+            type: toggle
+            width: 1/4
+            text:
+                - Nee
+                - Ja
+
+          player:
+            label: Speler?
+            type: toggle
+            width: 1/4
+            text:
+                - Nee
+                - Ja
+          youth_player:
+            label: Jeugdspeler?
+            type: toggle
+            width: 1/4
+            when:
+              player: true
+            text:
+                - Nee
+                - Ja
+
+      image:
+        type: files
+        headline: Profile picture
+        max: 1
+        layout: cards
+
+  
+
+  
+
+  
+     
