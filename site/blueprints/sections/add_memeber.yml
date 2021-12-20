@@ -1,0 +1,11 @@
+team:
+  headline: Unpublished team members 
+  type: pages
+  templates: team_member
+  status: draft
+
+all_team:
+  headline: All team members
+  type: pages
+  template: team_member
+  status: published
