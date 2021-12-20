@@ -7,7 +7,10 @@
         <button><a href="<?= page('contact')->url() ?>">Inschrijven</a></button>
     </hero>
 
-    <?php snippet('news-grid') ?>
+    <?php snippet('news-grid', [
+        'posts' => collection('posts')
+            ->limit(6)
+    ]) ?>
 
 
     <article>
