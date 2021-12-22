@@ -1,3 +1,82 @@
 title: Site
-preset: pages
-unlisted: true
+# preset: pages
+# unlisted: true
+
+columns:
+  pages:
+    width: 2/3
+    sections:
+      news:
+        label: Nieuws overzicht
+        type: pagesdisplay
+        query: site.find("news")
+
+      haedline_field:
+        type: fields
+        fields:
+          headline_pages:
+            label: Pages
+            type: headline
+            numbered: false
+
+      nav_pages:
+        headline: Navigatie pagina's
+        icon: dashboard
+        type: pages
+        layout: cards
+        status: listed
+      
+      unlisted:
+        headline: Unlisted pagina's
+        type: pages
+        layout: cards
+        status: unlisted
+
+  options:
+    width: 1/3
+    sections:
+      logo:
+        type: files
+        max: 1
+        layout: cards
+      option_fields:
+        type: fields
+        fields:
+          
+          headline_option:
+            type: headline
+            label: Options
+            numbered: false
+
+          team_title:
+            type: text
+            label: Team Title
+
+          founding_year:
+            label: Oprichtings jaar
+            type: number
+            min: 2008
+            step: 1
+          
+          social_links:
+            type: structure
+            label: Sociale media links
+            fields:
+              social:
+                label: Sociale media
+                type: select
+                options:
+                  - Facebook
+                  - Instagram
+                  - Youtube
+                  - Twitter
+              links:
+                label: Link naar sociale media
+                type: url
+          
+          location:
+            type: locator
+            zoom:
+              default: 14
+
+      

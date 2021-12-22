@@ -112,6 +112,7 @@ tabs:
         width: 2/3
         sections:       
           coaching_dames:
+            headline: Coaching staff
             type: pagesdisplay
             label: Coaching staff
             query: page.children.filterBy("coaching_team", "Dames")
@@ -164,6 +165,7 @@ tabs:
         width: 2/3
         sections:       
           coaching_jeugd:
+            headline: Coaching Jeugd
             type: pagesdisplay
             label: Coaching staff
             query: page.children.filterBy("coaching_team", "jeugd")

@@ -6,11 +6,13 @@ sections:
     fields: 
       jeugd:
         type: textarea
+        width: 1/2
       mannen:
         type: textarea
+        width: 1/2
       vrouwen:
         type: textarea
+        width: 1/2
       interesse:
         type: textarea
-      location: 
-        type: locator
+        width: 1/2

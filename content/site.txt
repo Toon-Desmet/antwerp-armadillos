@@ -1,11 +1,39 @@
-Title: Antwerp Armadillos
+Title: Antwerp Lacrosse
+
 ----
-Teamtitle: Antwerp Armadillos
+
+Team-title: Antwerp Armadillo's
+
 ----
-Instagram: https://www.instagram.com/antwerparmadillos/
+
+Founding-year: 2008
+
 ----
-Youtube: https://www.youtube.com/channel/UC58HeFlOOFsfW9xrVA4_Jig/featured
+
+Social-links:
+
+- 
+  social: Facebook
+  links: >
+    https://www.facebook.com/antwerparmadillos
+- 
+  social: Instagram
+  links: >
+    https://www.instagram.com/antwerparmadillos/
+- 
+  social: Youtube
+  links: >
+    https://www.youtube.com/channel/UC58HeFlOOFsfW9xrVA4_Jig/featured
+
 ----
-Facebook: https://www.facebook.com/antwerparmadillos
-----
-Founding_year: 2008
+
+Location:
+
+lat: 51.1704812
+lon: 4.3707004
+city: Antwerpen
+region: Antwerpen
+country: België
+postcode: "2660"
+address: Albert Einsteinlaan
+osm: 253581927
