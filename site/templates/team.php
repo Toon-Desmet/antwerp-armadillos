@@ -12,8 +12,6 @@ if (!$group) {
 } elseif ($group != $board && $group != $men && $group != $women) {
     $group = $board;
 }
-
-echo $group
 ?>
 <main>
     <nav>
@@ -25,46 +23,52 @@ echo $group
     </nav>
 
     <carousel>
-        <!-- //TODO make carousel -->
+        <!-- //TODO make carrousel with editable images-->
     </carousel>
 
     <?php if ($group === $board) : ?>
-        <?php snippet('board_members', [
+        <?php snippet('team_members', [
             'team_members' => collection('board_members'),
+            'info' => 'board_function'
         ]) ?>
 
     <?php endif ?>
 
     <?php if ($group === $men) : ?>
         <h2>Coaching staff</h2>
-        <?php snippet('coaching_members', [
+        <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('coaching_team', 'Heren')
-                ->filterBy('coaching', true)
+                ->filterBy('coaching', true),
+            'info' => 'coaching_function'
         ]) ?>
         <h2>Attack</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'male')
-                ->filterBy('position', 'Attack')
+                ->filterBy('position', 'Attack'),
+            'info' => 'position'
         ]) ?>
         <h2>Midfield</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'male')
-                ->filterBy('position', 'Midfield')
+                ->filterBy('position', 'Midfield'),
+            'info' => 'position'
         ]) ?>
         <h2>Defence</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'male')
-                ->filterBy('position', 'Defence')
+                ->filterBy('position', 'Defence'),
+            'info' => 'position'
         ]) ?>
         <h2>Goalie</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'male')
-                ->filterBy('position', 'Goalie')
+                ->filterBy('position', 'Goalie'),
+            'info' => 'position'
         ]) ?>
 
     <?php endif ?>
@@ -75,31 +79,36 @@ echo $group
         <?php snippet('coaching_members', [
             'team_members' => collection('team_members')
                 ->filterBy('coaching_team', 'Dames')
-                ->filterBy('coaching', true)
+                ->filterBy('coaching', true),
+            'info' => 'coaching_function'
         ]) ?>
         <h2>Attack</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'female')
-                ->filterBy('position', 'Attack')
+                ->filterBy('position', 'Attack'),
+            'info' => 'position'
         ]) ?>
         <h2>Midfield</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'female')
-                ->filterBy('position', 'Midfield')
+                ->filterBy('position', 'Midfield'),
+            'info' => 'position'
         ]) ?>
         <h2>Defence</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'female')
-                ->filterBy('position', 'Defence')
+                ->filterBy('position', 'Defence'),
+            'info' => 'position'
         ]) ?>
         <h2>Goalie</h2>
         <?php snippet('team_members', [
             'team_members' => collection('team_members')
                 ->filterBy('gender', 'female')
-                ->filterBy('position', 'Goalie')
+                ->filterBy('position', 'Goalie'),
+            'info' => 'position'
         ]) ?>
 
     <?php endif ?>
