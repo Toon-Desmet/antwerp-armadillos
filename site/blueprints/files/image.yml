@@ -1,0 +1,7 @@
+title: File
+
+fields:
+  alt:
+    type: text
+    required: true
+

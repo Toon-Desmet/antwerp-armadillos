@@ -14,7 +14,7 @@ Gender: male
 
 ----
 
-Birthday: 
+Birthday: 1999-12-23
 
 ----
 
