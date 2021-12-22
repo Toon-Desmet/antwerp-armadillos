@@ -1,5 +1,6 @@
 <grid>
     <?php
+    $info;
     foreach ($team_members as $member) : ?>
         <figure>
             <?php if ($member->image()) : ?>
@@ -8,7 +9,7 @@
                 <img src="<?= asset('assets/images/Armadillos_logo_500x500')->crop(400)->url() ?>" alt="">
             <?php endif ?>
             <h3> <?= $member->fname() . " " . $member->lname() ?></h3>
-            <figcaption><?= $member->position() ?></figcaption>
+            <figcaption><?= $member->{$info}() ?></figcaption>
         </figure>
     <?php endforeach ?>
 </grid>
