@@ -1,0 +1,13 @@
+Alt: black and white photo of 2 lacrosse players
+
+----
+
+Focus: {"x":0.54,"y":0.43}
+
+----
+
+Sort: 1
+
+----
+
+Template: image

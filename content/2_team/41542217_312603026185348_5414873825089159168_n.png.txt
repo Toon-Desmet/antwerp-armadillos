@@ -1,0 +1,13 @@
+Focus: {"x":0.54,"y":0.43}
+
+----
+
+Alt: 
+
+----
+
+Sort: 1
+
+----
+
+Template: image
