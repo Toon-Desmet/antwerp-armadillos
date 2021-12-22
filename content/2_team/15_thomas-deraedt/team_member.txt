@@ -1,0 +1,49 @@
+Title: Thomas Deraedt
+
+----
+
+Fname: Thomas
+
+----
+
+Lname: Deraedt
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Defence
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

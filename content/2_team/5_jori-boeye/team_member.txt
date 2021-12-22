@@ -1,0 +1,53 @@
+Title: Jori Boeye
+
+----
+
+Fname: Jori
+
+----
+
+Lname: Boeye
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2016
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Attack
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

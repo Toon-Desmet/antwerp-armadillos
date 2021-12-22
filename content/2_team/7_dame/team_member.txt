@@ -1,0 +1,53 @@
+Title: Dame
+
+----
+
+Fname: Een
+
+----
+
+Lname: Dame
+
+----
+
+Gender: female
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2019
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Attack
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false
