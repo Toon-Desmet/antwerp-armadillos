@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('breadcrumb') ?>
-
+<!-- //TODO update controller -->
 <main>
     <h1><?= $page->custom_title()->or($page->title()->html()) ?></h1>
 
