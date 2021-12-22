@@ -1,4 +1,11 @@
+    <?php
+    $social_links = $site->social_links()->toStructure();
+    $facebook = $social_links->findBy('social', 'Facebook');
+    $instagram = $social_links->findBy('social', 'Instagram');
+    ?>
+
     <footer class="footer">
+
         <div class="footer--element">
             <p>Copyright © 2021 Antwerp Armadillos Lacrosse | Credits</p>
         </div>
@@ -6,8 +13,8 @@
             <h3>CONTACT US:</h3>
             <p>antwerparmadillos@gmail.com</p>
             <div>
-                <a href="<?= $site->facebook()->html() ?>" target="_blank"> <?= asset('assets/images/Facebook.svg')->read() ?></a>
-                <a href="<?= $site->instagram()->html() ?>" target="_blank"> <?= asset('assets/images/instagram.svg')->read() ?> </a>
+                <a href="<?= $facebook->links() ?>" target="_blank"> <?= asset('assets/images/Facebook.svg')->read() ?></a>
+                <a href="<?= $instagram->links() ?>" target="_blank"> <?= asset('assets/images/instagram.svg')->read() ?> </a>
             </div>
         </div>
         <div class="footer--element footer--design-element">
