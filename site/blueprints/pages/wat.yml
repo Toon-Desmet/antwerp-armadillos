@@ -11,6 +11,9 @@ fields:
         type: textarea
       image:
         type: files
+        template: image
+        layout: cards
+        max: 1
   
   info_text:
     label: Info text

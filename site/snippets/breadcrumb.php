@@ -1,7 +1,6 @@
 <breadcrumb>
     <!-- //TODO implement the last breadcrumb as the redirect -->
-    <!-- //TODO changing text button to arrow button -->
-    <button><a href="/home">back</a></button>
+    <button><a href="/home">&#8249;</a></button>
     <?php foreach ($site->breadcrumb() as $key => $crumb) :
         //TODO  Fixen naar de eerste key in plaats van home
         if ($crumb->title() != "Home") {

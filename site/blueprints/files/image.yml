@@ -1,7 +1,12 @@
-title: File
+title: Image
 
+accept:
+  extension: jpg, png, svg, gif, jpeg
 fields:
+  focus:
+    label: My Focus Field
+    type: focus
+    width: 1/2
   alt:
     type: text
     required: true
-

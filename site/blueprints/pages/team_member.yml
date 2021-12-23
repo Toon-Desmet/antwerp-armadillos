@@ -141,6 +141,7 @@ columns:
 
       image:
         type: files
+        template: image
         headline: Profile picture
         max: 1
         layout: cards

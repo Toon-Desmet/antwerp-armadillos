@@ -1,5 +1,38 @@
 title: Team
 tabs:
+  general:
+    label: algemeen
+    icon: dashboard
+    sections:
+      carrousel:
+        type: files
+        template: image
+        layout: cards
+        min: 1
+        max: 10
+        image: 
+          ratio: 1/1
+
+      # adding a team member
+      unpublished_team_general:
+        headline: Unpublished team members 
+        type: pages
+        templates: team_member
+        status: draft
+
+      all_team_general:
+        headline: All team members
+        type: pages
+        layout: cards
+        size: tiny
+        template: team_member
+        status: published
+        image:
+          ratio:1/1
+
+      
+
+
 # bestuur tab
   bestuur:
     label: Bestuur

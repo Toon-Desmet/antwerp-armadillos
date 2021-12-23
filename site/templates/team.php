@@ -23,7 +23,11 @@ if (!$group) {
     </nav>
 
     <carousel>
-        <!-- //TODO make carrousel with editable images-->
+        <?php foreach ($page->images() as $image) : ?>
+            <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+        <?php endforeach ?>
+        <button onclick="">&#8249;</button>
+        <button onclick="">&#8250;</button>
     </carousel>
 
     <?php if ($group === $board) : ?>

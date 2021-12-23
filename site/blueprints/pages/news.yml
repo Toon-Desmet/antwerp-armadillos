@@ -16,4 +16,5 @@ sections:
     template: post
     status: published
     image:
+      ratio: 1/1
       cover: true

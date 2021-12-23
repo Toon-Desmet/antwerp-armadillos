@@ -2,7 +2,7 @@
 
 <main>
     <hero>
-        <!-- //TODO add hero image and make editable in panel -->
+        <img src="<?= $page->image()->crop(400)->url() ?>" alt="<?= $page->image()->alt() ?>">
         <h1><?= $site->teamtitle() ?></h1>
         <h2><?= $page->subtitle() ?></h2>
         <button><a href="<?= page('contact')->url() ?>">Inschrijven</a></button>
