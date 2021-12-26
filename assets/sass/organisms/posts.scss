@@ -1,0 +1,32 @@
+.post--container{
+    width: 30%;
+    margin: 50px 0;
+    padding: 15px;
+    position: relative;
+    padding: 15px 15px 150px 15px;
+    background-image: url("../images/post_back.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posts--container{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.post--button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 100px 0;
+}

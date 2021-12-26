@@ -11,15 +11,14 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
-    <?= css('assets/css/index.css') ?>
-    <?= css('@auto') ?>
+    <?= css('assets/styles/index.css') ?>
 </head>
 
 <body>
     <header>
         <a href="<?php echo $site->url() ?>">
             <!-- //TODO change title to armadillos logo-->
-            <h1><?= $site->title() ?><h1>
+            <p><?= $site->title() ?><p>
         </a>
 
         <nav class="nav--links">

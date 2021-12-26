@@ -1,0 +1,48 @@
+@import "../fonts.scss";
+
+h1{
+    font-size: 4rem;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+.text--small{
+    font-size: 1rem;
+}
+
+.text--big{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.nav--selected{
+    font-size: 1.2rem;
+    color: $blue;
+}
+
+.text--mobile{
+    font-size: 1.1rem;
+}
+
+.text--white{
+    color: white;
+}
+
+.text--link{
+    text-decoration: underline;
+    font-weight: 300;
+}

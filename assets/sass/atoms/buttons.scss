@@ -1,0 +1,17 @@
+@import "../vars.scss";
+@import "../fonts.scss";
+
+.button{
+    font-family: "Inconsolata";
+    font-size: 25px;
+    padding: 10px;
+    background-color: $blue;
+    color: white;
+    border: 1px solid white;
+    width: 240px;
+    text-align: center;
+}
+
+.button--mobile{
+    font-size: 1rem;
+}
