@@ -1,4 +1,6 @@
 const { series } = require('gulp');
+var gulp = require('gulp');
+var sass = require('gulp-sass')(require('sass'))
 
 // The `clean` function is not exported so it can be considered a private task.
 // It can still be used within the `series()` composition.
@@ -14,5 +16,13 @@ function build(cb) {
   cb();
 }
 
-exports.build = build;
+function styles(){
+  return gulp.src("./assets/sass/index.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(gulp.dest('./assets/styles'));
+}
+
+exports.styles = styles;
+
+exports.build = series(build, styles);
 exports.default = series(clean, build);

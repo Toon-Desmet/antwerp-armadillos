@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "./atoms/atoms.scss";
+@import "./atoms/text.scss";
+@import "./organisms/organisms.scss";
+@import "./pages/pages.scss";
 
-*, *::after, *::before{
+
+*{
     margin: 0;
     padding: 0;
-    font-family: "roboto";
+    font-family: "Inconsolata";
 }
 
 header{

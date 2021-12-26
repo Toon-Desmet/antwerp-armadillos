@@ -1,12 +1,14 @@
 <?php snippet('header') ?>
 
 <main>
-    <hero>
+    <div class="hero">
         <!-- //TODO add hero image and make editable in panel -->
-        <h1>antwerp armadillos</h1>
+        <h1><?= $site->team_title() ?></h1>
         <h2><?= $page->subtitle() ?></h2>
-        <button><a href="<?= page('contact')->url() ?>">Inschrijven</a></button>
-    </hero>
+        <div>
+            <a class="button button--primary" href="<?= page('contact')->url() ?>">Inschrijven</a>
+        </div>
+    </div>
 
     <?php snippet('news-grid', [
         'posts' => collection('posts')
@@ -16,7 +18,7 @@
 
     <article>
         <p><?= $page->lacrosse_text() ?></p>
-        <button><a href="<?= page('wat')->url() ?>">Wat is lacrosse?</a></button>
+        <a class="button button--primary" href="<?= page('wat')->url() ?>">Wat is lacrosse?</a>
     </article>
 </main>
 

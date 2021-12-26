@@ -11,8 +11,7 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
-    <?= css('assets/css/index.css') ?>
-    <?= css('@auto') ?>
+    <?= css('assets/styles/index.css') ?>
 </head>
 
 <body>
