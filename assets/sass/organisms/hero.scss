@@ -1,0 +1,19 @@
+.hero{
+    background: #484848;
+    color: white;
+
+    h1{
+        width: 30%;
+    }
+
+    .hero--text{
+        padding: 50px 50px;
+    }
+
+    .hero--button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

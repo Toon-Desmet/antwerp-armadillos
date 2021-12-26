@@ -1,8 +1,19 @@
+@import "../fonts.scss";
+
 h1{
-    font-size: 2.7rem;
+    font-size: 4rem;
+    line-height: 1.3em;
+    font-weight: 400;
 }
+
 h2{
-    font-size: 2.2rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .text{

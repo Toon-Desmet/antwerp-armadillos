@@ -3,9 +3,11 @@
 <main>
     <div class="hero">
         <!-- //TODO add hero image and make editable in panel -->
-        <h1><?= $site->team_title() ?></h1>
-        <h2><?= $page->subtitle() ?></h2>
-        <div>
+        <div class="hero--text">
+            <h1><?= $site->team_title() ?></h1>
+            <h3><?= $page->subtitle() ?></h3>
+        </div>
+        <div class="hero--button">
             <a class="button button--primary" href="<?= page('contact')->url() ?>">Inschrijven</a>
         </div>
     </div>
