@@ -16,12 +16,16 @@
         'posts' => collection('posts')
             ->limit(6)
     ]) ?>
+    <div class="post--button">
+        <a class="button button--primary" href="#">Alle artikelen lezen</a>
+    </div>
 
-
-    <article>
-        <p><?= $page->lacrosse_text() ?></p>
-        <a class="button button--primary" href="<?= page('wat')->url() ?>">Wat is lacrosse?</a>
-    </article>
+    <div class="banner--container">
+        <div class="banner">
+            <p><?= $page->lacrosse_text() ?></p>
+            <a class="button button--primary" href="<?= page('wat')->url() ?>">Wat is lacrosse?</a>
+        </div>
+    </div>
 </main>
 
 <?php snippet('footer') ?>

@@ -26,6 +26,7 @@ h3{
 
 .text--big{
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .nav--selected{
@@ -35,4 +36,13 @@ h3{
 
 .text--mobile{
     font-size: 1.1rem;
+}
+
+.text--white{
+    color: white;
+}
+
+.text--link{
+    text-decoration: underline;
+    font-weight: 300;
 }
