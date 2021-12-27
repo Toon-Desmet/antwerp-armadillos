@@ -21,7 +21,7 @@
             <textarea type="textarea" id="text" name="text" placeholder="Vraag of opmerking" required></textarea>
         </field>
 
-        <input type="submit" name="submit" value="Submit">
+        <input class="button button--primary" type="submit" name="submit" value="Submit">
     </form>
 
     <info>

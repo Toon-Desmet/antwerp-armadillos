@@ -24,7 +24,7 @@
             <p><?= $page->interesse() ?></p>
         <?php endif ?>
 
-        <button><a href="<?= page('contact')->url() ?>">Inschrijven</a></button>
+        <a class="button button--primary" href="<?= page('contact')->url() ?>">Inschrijven</a>
     </interesse>
 
     <location>

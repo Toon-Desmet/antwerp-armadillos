@@ -42,6 +42,11 @@ h3 {
   font-weight: 300;
 }
 
+h4 {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
 .text {
   font-size: 1.2rem;
 }
@@ -86,6 +91,11 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.7rem;
   font-weight: 300;
 }
 
@@ -222,6 +232,19 @@ h3 {
   grid-gap: 50px;
   padding: 50px 50px;
   text-align: center;
+}
+.teams--container .teams--members grid figure {
+  width: 20vw;
+}
+
+breadcrumb {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+breadcrumb .breadcrumbs--back-arrow img {
+  width: 20px;
+  padding: 5px 10px 0 0;
 }
 
 .banner {

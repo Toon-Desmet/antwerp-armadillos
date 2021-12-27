@@ -25,7 +25,7 @@
     <info>
         <h3>Geïnteresseerd?</h3>
         <p><?= $page->info_text() ?></p>
-        <button> <button><a href="<?= page('contact')->url() ?>">Schrijf je nu in!</a></button></button>
+        <a class="button button--primary" href="<?= page('contact')->url() ?>">Schrijf je nu in!</a>
     </info>
 </main>
 
