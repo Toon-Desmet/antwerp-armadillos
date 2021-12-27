@@ -1,0 +1,12 @@
+breadcrumb{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .breadcrumbs--back-arrow{
+        img{
+            width: 20px;
+            padding: 5px 10px 0 0;
+        }
+    }
+}
