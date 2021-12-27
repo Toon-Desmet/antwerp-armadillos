@@ -4,9 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .button {
   font-family: "Inconsolata";
   font-size: 25px;
@@ -26,56 +23,11 @@
   width: 100%;
 }
 
-h1 {
-  font-size: 4rem;
-  line-height: 1.3em;
-  font-weight: 400;
+.logo {
+  width: 50px;
 }
-
-h2 {
-  font-size: 3rem;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-h4 {
-  font-size: 1.7rem;
-  font-weight: 300;
-}
-
-.text {
-  font-size: 1.2rem;
-}
-
-.text--small {
-  font-size: 1rem;
-}
-
-.text--big {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.nav--selected {
-  font-size: 1.2rem;
-  color: #418CC1;
-}
-
-.text--mobile {
-  font-size: 1.1rem;
-}
-
-.text--white {
-  color: white;
-}
-
-.text--link {
-  text-decoration: underline;
-  font-weight: 300;
+.logo img {
+  width: 75px;
 }
 
 h1 {
@@ -269,6 +221,45 @@ breadcrumb {
 breadcrumb .breadcrumbs--back-arrow img {
   width: 20px;
   padding: 5px 10px 0 0;
+}
+
+.page--training {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.training--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 70vw;
+}
+.training--container h2, .training--container h3, .training--container p, .training--container .button {
+  margin: 20px 0 0 0;
+}
+
+.background {
+  position: relative;
+  margin: 10px 0 0 0;
+  padding: 0 0 200px 0;
+  color: white;
+}
+.background::before {
+  content: "";
+  background-image: url("../images/article_back.svg");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  left: -15vw;
+  z-index: -1;
 }
 
 .banner {

@@ -1,0 +1,41 @@
+.page--training{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.training--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    width: 70vw;
+
+    h2, h3, p, .button{
+        margin: 20px 0 0 0;
+    }
+}
+
+.background{
+    
+    position: relative;
+    margin: 10px 0 0 0;
+    padding: 0 0 200px 0;  
+    color: white;
+
+    &::before{
+        content: '';
+        background-image: url("../images/article_back.svg");
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        top: 0;
+        left: -15vw;
+        z-index: -1;
+    }
+}

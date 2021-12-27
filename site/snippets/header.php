@@ -16,9 +16,9 @@
 
 <body>
     <header>
-        <a href="<?php echo $site->url() ?>">
+        <a class="logo" href="<?php echo $site->url() ?>">
             <!-- //TODO change title to armadillos logo-->
-            <p><?= $site->title() ?><p>
+            <img src="./assets/images/Armadillos_logo_500x500.jpg" alt="">
         </a>
 
         <nav class="nav--links">
