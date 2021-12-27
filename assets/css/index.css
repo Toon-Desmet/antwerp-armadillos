@@ -192,6 +192,38 @@ h3 {
   z-index: -1;
 }
 
+.nav--teams {
+  margin: 25px 0;
+}
+.nav--teams .nav--teams-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav--teams .nav--teams-list li {
+  list-style: none;
+}
+
+.teams--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.teams--container h2 {
+  margin: 50px 0 0 0;
+}
+.teams--container .teams--members {
+  width: 100%;
+}
+.teams--container .teams--members grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  padding: 50px 50px;
+  text-align: center;
+}
+
 .banner {
   background-image: url("../images/text_banner.png");
   color: white;

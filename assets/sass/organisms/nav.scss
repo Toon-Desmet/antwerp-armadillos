@@ -1,0 +1,14 @@
+.nav--teams{
+    margin: 25px 0;
+
+    
+    .nav--teams-list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li{
+            list-style: none;
+        }
+    }
+}
