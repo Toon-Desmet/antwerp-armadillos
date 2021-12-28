@@ -223,6 +223,59 @@ breadcrumb .breadcrumbs--back-arrow img {
   padding: 5px 10px 0 0;
 }
 
+accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+accordion .wat-is-lacrosse--article {
+  width: 95vw;
+  border-top: solid black 1px;
+  padding: 15px 0 15px 30px;
+}
+accordion .wat-is-lacrosse--article:last-child {
+  border-bottom: solid black 1px;
+}
+accordion .wat-is-lacrosse--article .article--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+accordion .wat-is-lacrosse--article .article--title .title {
+  font-family: "quicksand";
+  font-weight: bold;
+}
+accordion .wat-is-lacrosse--article .article--title:hover {
+  cursor: pointer;
+}
+accordion .wat-is-lacrosse--article .article--title .arrows {
+  padding: 0 60px 0 0;
+  width: 35px;
+  height: 22px;
+  position: relative;
+}
+accordion .wat-is-lacrosse--article .article--title .arrows .arrow {
+  width: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+accordion .wat-is-lacrosse--article article {
+  width: 90vw;
+  display: flex;
+  padding: 20px 0 20px 20px;
+}
+accordion .wat-is-lacrosse--article article .article--text {
+  width: 70%;
+}
+accordion .wat-is-lacrosse--article article .article--images {
+  width: 30%;
+}
+accordion .wat-is-lacrosse--article article .article--images img {
+  width: 100%;
+}
+
 .page--training {
   display: flex;
   justify-content: center;

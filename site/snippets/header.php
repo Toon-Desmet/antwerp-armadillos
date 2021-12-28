@@ -11,7 +11,10 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
-    <?= css('assets/css/index.css') ?>
+    <?= js('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') ?>
+    <?= css('assets/styles/index.css') ?>
+    <?= js('assets/js/accordion.js') ?>
+
 </head>
 
 <body>

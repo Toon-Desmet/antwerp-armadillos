@@ -1,0 +1,62 @@
+accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .wat-is-lacrosse--article{
+        width: 95vw;
+        border-top: solid black 1px;
+        padding: 15px 0 15px 30px;
+
+        &:last-child{
+            border-bottom: solid black 1px;
+        }
+
+        .article--title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .title{
+                font-family: "quicksand";
+                font-weight: bold;
+            }
+
+            &:hover{
+                cursor: pointer;
+            }
+
+            .arrows{
+                padding: 0 60px 0 0;
+                width: 35px;
+                height: 22px;
+                position: relative;
+
+                .arrow{
+                    width: 35px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+
+        article{
+            width: 90vw;
+            display: flex;
+            padding: 20px 0 20px 20px;
+
+            .article--text{
+                width: 70%;
+            }
+            .article--images{
+                width: 30%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
