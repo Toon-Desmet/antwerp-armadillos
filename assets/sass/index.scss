@@ -45,10 +45,16 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    div, p{
+        margin: 7px 0 0 0 ;
+    }
 }
 
 .footer--design-element{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    p{
+        padding: 0 10px 0 0 ;
+    }
 }

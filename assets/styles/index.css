@@ -276,6 +276,17 @@ accordion .wat-is-lacrosse--article article .article--images img {
   width: 100%;
 }
 
+.container--info {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
+}
+.container--info h3, .container--info p, .container--info .button {
+  margin: 15px 0;
+}
+
 .page--training {
   display: flex;
   justify-content: center;
@@ -390,9 +401,15 @@ a {
   flex-direction: column;
   align-items: center;
 }
+.footer--link-element div, .footer--link-element p {
+  margin: 7px 0 0 0;
+}
 
 .footer--design-element {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+.footer--design-element p {
+  padding: 0 10px 0 0;
 }

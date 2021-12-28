@@ -36,7 +36,7 @@
     </accordion>
 
 
-    <info>
+    <info class="container--info">
         <h3>Geïnteresseerd?</h3>
         <p><?= $page->info_text() ?></p>
         <a class="button button--primary" href="<?= page('contact')->url() ?>">Schrijf je nu in!</a>
