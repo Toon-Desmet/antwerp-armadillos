@@ -11,15 +11,17 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
+    <?= js('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') ?>
     <?= css('assets/css/index.css') ?>
-    <?= css('@auto') ?>
+    <?= js('assets/js/accordion.js') ?>
+
 </head>
 
 <body>
     <header>
-        <a href="<?php echo $site->url() ?>">
+        <a class="logo" href="<?php echo $site->url() ?>">
             <!-- //TODO change title to armadillos logo-->
-            <h1><?= $site->title() ?><h1>
+            <img src="./assets/images/Armadillos_logo_500x500.jpg" alt="">
         </a>
 
         <nav class="nav--links">

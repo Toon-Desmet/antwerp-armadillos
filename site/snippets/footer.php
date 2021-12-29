@@ -10,7 +10,7 @@
             <p>Copyright © 2021 Antwerp Armadillos Lacrosse | Credits</p>
         </div>
         <div class="footer--element footer--link-element">
-            <h3>CONTACT US:</h3>
+            <h4>CONTACT US:</h4>
             <p>antwerparmadillos@gmail.com</p>
             <div>
                 <a href="<?= $facebook->links() ?>" target="_blank"> <?= asset('assets/images/Facebook.svg')->read() ?></a>

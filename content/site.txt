@@ -2,7 +2,7 @@ Title: Antwerp Lacrosse
 
 ----
 
-Team-title: Antwerp Armadillo's
+team_title: Antwerp Armadillo's
 
 ----
 

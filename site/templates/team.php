@@ -14,11 +14,11 @@ if (!$group) {
 }
 ?>
 <main>
-    <nav>
-        <ul>
-            <li><a href="<?= $page->url() . "?group=" . $board ?>">Bestuur</a></li>
-            <li><a href="<?= $page->url() . "?group=" . $men ?>">Heren</a></li>
-            <li><a href="<?= $page->url() . "?group=" . $women ?>">Dames</a></li>
+    <nav class="nav--teams">
+        <ul class="nav--teams-list">
+            <li><a href="<?= $page->url() . "?group=" . $board ?>"><h2>Bestuur</h2></a></li>
+            <li><a href="<?= $page->url() . "?group=" . $men ?>"><h2>Heren</h2></a></li>
+            <li><a href="<?= $page->url() . "?group=" . $women ?>"><h2>Dames</h2></a></li>
         </ul>
     </nav>
 
@@ -31,89 +31,133 @@ if (!$group) {
     </carousel>
 
     <?php if ($group === $board) : ?>
-        <?php snippet('team_members', [
-            'team_members' => collection('board_members'),
-            'info' => 'board_function'
-        ]) ?>
+        <div class="teams--container">
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('board_members'),
+                    'info' => 'board_function'
+                ]) ?>
+            </div>
+        </div>
 
     <?php endif ?>
 
     <?php if ($group === $men) : ?>
-        <h2>Coaching staff</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('coaching_team', 'Heren')
-                ->filterBy('coaching', true),
-            'info' => 'coaching_function'
-        ]) ?>
-        <h2>Attack</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'male')
-                ->filterBy('position', 'Attack'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Midfield</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'male')
-                ->filterBy('position', 'Midfield'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Defence</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'male')
-                ->filterBy('position', 'Defence'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Goalie</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'male')
-                ->filterBy('position', 'Goalie'),
-            'info' => 'position'
-        ]) ?>
+        <div class="teams--container">
+            <h2>Coaching staff</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('coaching_team', 'Heren')
+                        ->filterBy('coaching', true),
+                    'info' => 'coaching_function'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Attack</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'male')
+                        ->filterBy('position', 'Attack'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Midfield</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'male')
+                        ->filterBy('position', 'Midfield'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Defence</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'male')
+                        ->filterBy('position', 'Defence'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Goalie</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'male')
+                        ->filterBy('position', 'Goalie'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
 
     <?php endif ?>
 
     <?php if ($group === $women) : ?>
 
-        <h2>Coaching staff</h2>
-        <?php snippet('coaching_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('coaching_team', 'Dames')
-                ->filterBy('coaching', true),
-            'info' => 'coaching_function'
-        ]) ?>
-        <h2>Attack</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'female')
-                ->filterBy('position', 'Attack'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Midfield</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'female')
-                ->filterBy('position', 'Midfield'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Defence</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'female')
-                ->filterBy('position', 'Defence'),
-            'info' => 'position'
-        ]) ?>
-        <h2>Goalie</h2>
-        <?php snippet('team_members', [
-            'team_members' => collection('team_members')
-                ->filterBy('gender', 'female')
-                ->filterBy('position', 'Goalie'),
-            'info' => 'position'
-        ]) ?>
+        <div class="teams--container">
+            <h2>Coaching staff</h2>
+            <div class="teams--members">
+                <?php snippet('coaching_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('coaching_team', 'Dames')
+                        ->filterBy('coaching', true),
+                    'info' => 'coaching_function'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Attack</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'female')
+                        ->filterBy('position', 'Attack'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Midfield</h2>
+                <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'female')
+                        ->filterBy('position', 'Midfield'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Defence</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'female')
+                        ->filterBy('position', 'Defence'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
+        <div class="teams--container">
+            <h2>Goalie</h2>
+            <div class="teams--members">
+                <?php snippet('team_members', [
+                    'team_members' => collection('team_members')
+                        ->filterBy('gender', 'female')
+                        ->filterBy('position', 'Goalie'),
+                    'info' => 'position'
+                ]) ?>
+            </div>
+        </div>
 
     <?php endif ?>
 </main>

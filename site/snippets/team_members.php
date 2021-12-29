@@ -6,7 +6,7 @@
             <?php if ($member->image()) : ?>
                 <img src="<?= $member->image()->crop(400)->url() ?> ">
             <?php else : ?>
-                <img src="<?= asset('assets/images/Armadillos_logo_500x500')->crop(400)->url() ?>" alt="">
+                <img src="http://via.placeholder.com/175x250" alt="">
             <?php endif ?>
             <h3> <?= $member->fname() . " " . $member->lname() ?></h3>
             <figcaption><?= $member->{$info}() ?></figcaption>

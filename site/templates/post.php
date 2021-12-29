@@ -2,7 +2,7 @@
 <?php snippet('breadcrumb') ?>
 
 <main>
-    <article>
+    <article class="artical--container">
 
         <h1><?= $page->title() ?></h1>
         <info>

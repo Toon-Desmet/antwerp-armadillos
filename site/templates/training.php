@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('breadcrumb') ?>
-<main>
-    <training>
+<main class="page--training">
+    <training class="training--container background">
         <h2>Onze trainingen gaan door op:</h2>
 
         <?php if ($page->jeugd()->isNotEmpty()) : ?>
@@ -18,16 +18,16 @@
         <?php endif ?>
     </training>
 
-    <interesse>
+    <interesse class="training--container">
         <h2>Geinteresseerd?</h2>
         <?php if ($page->interesse()->isNotEmpty()) : ?>
             <p><?= $page->interesse() ?></p>
         <?php endif ?>
 
-        <button><a href="<?= page('contact')->url() ?>">Inschrijven</a></button>
+        <a class="button button--primary" href="<?= page('contact')->url() ?>">Inschrijven</a>
     </interesse>
 
-    <location>
+    <location class="training--container">
         <h2>Locatie</h2>
         <?php
         $location = $page->location()->yaml();

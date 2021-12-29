@@ -1,0 +1,35 @@
+.container--info{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+
+    h3, p, .button{
+        margin: 15px 0;
+    }
+}
+
+.container--contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+
+    h3{
+        padding: 0 0 20px 0;
+    }
+}
+
+.container--contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+
+    info{
+        margin: 0 0 30px 0 ;
+    }
+}
