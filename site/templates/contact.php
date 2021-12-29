@@ -2,9 +2,9 @@
 <?php snippet('breadcrumb') ?>
 <!-- //TODO update controller -->
 <main>
-    <h3><?= $page->custom_title()->or($page->title()->html()) ?></h3>
-
+    
     <div class="container--contact-form">
+        <h3><?= $page->custom_title()->or($page->title()->html()) ?></h3>
         <form class="form--contact" action="<?= $page->url() ?>">
 
             <field>
