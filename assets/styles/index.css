@@ -83,11 +83,11 @@ h4 {
 }
 
 .post--container {
-  width: 30%;
-  margin: 50px 0;
+  width: 25%;
+  height: 100%;
   padding: 15px;
   position: relative;
-  padding: 15px 15px 150px 15px;
+  margin: 15px 15px 150px 15px;
   background-image: url("../images/post_back.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -102,6 +102,7 @@ h4 {
 }
 
 .posts--container {
+  margin: 100px 0 0 0;
   width: 90vw;
   display: grid;
   grid-template-columns: auto auto auto;

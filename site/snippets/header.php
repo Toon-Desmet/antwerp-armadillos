@@ -12,7 +12,7 @@
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
     <?= js('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') ?>
-    <?= css('assets/css/index.css') ?>
+    <?= css('assets/styles/index.css') ?>
     <?= js('assets/js/accordion.js') ?>
 
 </head>
