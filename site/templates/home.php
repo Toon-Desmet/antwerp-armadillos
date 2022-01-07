@@ -2,7 +2,10 @@
 
 <main>
     <div class="hero">
-        <!-- //TODO add hero image and make editable in panel -->
+
+        <?php if ($page->image()->url()) : ?>
+            <img src="<?= $page->image()->url() ?>" alt="<?= $page->image()->alt() ?>">
+        <?php endif ?>
         <div class="hero--text">
             <h1><?= $site->team_title() ?></h1>
             <h3><?= $page->subtitle() ?></h3>
@@ -12,14 +15,18 @@
         </div>
     </div>
 
-    <?php snippet('news-grid', [
+    <?php
+    $limit = 6;
+    snippet('news-grid', [
         'posts' => collection('posts')
-            ->limit(6)
-    ]) ?>
-    <div class="post--button">
-        <a class="button button--primary" href="#">Alle artikelen lezen</a>
-    </div>
+            ->limit($limit)
+    ]); ?>
 
+    <?php if (collection('posts')->count() >= $limit) : ?>
+        <div class="post--button">
+            <a class="button button--primary" href="<?= page('news')->url() ?>">Alle artikelen lezen</a>
+        </div>
+    <?php endif ?>
     <div class="banner--container">
         <div class="banner">
             <p><?= $page->lacrosse_text() ?></p>

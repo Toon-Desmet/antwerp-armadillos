@@ -43,6 +43,7 @@ columns:
           joined:
             label: lid sinds
             type: number
+            default: 2022
             min: 2008
             width: 1/4
             step: 1
