@@ -1,2 +1,11 @@
 title: Contact
 
+fields:
+  emails:
+    label: Ontvanger emails
+    type: structure
+    help: Op deze email adressen komen de contact mails van de website binnen.
+    fields: 
+      email:
+        type: email
+

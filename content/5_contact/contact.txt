@@ -1,8 +1,26 @@
 Title: Contact
-----
-custom_title: Contact us:
-----
-lacrosse_info: Voor meer info over lacrosse 
 
 ----
-training_info: Voor meer info over onze trainingen 
+
+Email: info@antwerplacrosse.be
+
+----
+
+Emails:
+
+- 
+  email: test@test.com
+- 
+  email: info@antwerplacrosse.be
+
+----
+
+Custom-title: Contact us:
+
+----
+
+Lacrosse-info: Voor meer info over lacrosse
+
+----
+
+Training-info: Voor meer info over onze trainingen

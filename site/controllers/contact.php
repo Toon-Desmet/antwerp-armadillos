@@ -35,13 +35,14 @@ return function ($kirby, $pages, $page) {
 
             // the data is fine, let's send the email
         } else {
+
             try {
                 $kirby->email([
                     'template' => 'email',
-                    'from'     => 'yourcontactform@yourcompany.com',
+                    'from'     => $data['email'],
                     'replyTo'  => $data['email'],
-                    'to'       => 'you@yourcompany.com',
-                    'subject'  => esc($data['name']) . ' sent you a message from your contact form',
+                    'to'       => collection('emails'),
+                    'subject'  => esc($data['name']) . ' heeft je een mail gestuurd via de website ',
                     'data'     => [
                         'text'   => esc($data['text']),
                         'sender' => esc($data['name'])
@@ -57,7 +58,7 @@ return function ($kirby, $pages, $page) {
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                $success = 'We hebben uw bericht ontvangen! We gaan u zo spoedig mogelijk terug contacteren';
                 $data = [];
             }
         }
