@@ -8,7 +8,9 @@
         <info>
             <?= $page->info() ?>
         </info>
-        <img src="<?= $page->image()->resize(1000)->url() ?>" alt="">
+        <?php if ($page->image()) : ?>
+            <img src="<?= $page->image()->resize(1000)->url() ?>" alt="">
+        <?php endif ?>
     </article>
 </main>
 
