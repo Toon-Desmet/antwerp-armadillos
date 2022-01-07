@@ -7,9 +7,10 @@ columns:
     width: 2/3
     sections:
       news:
-        label: Nieuws overzicht
+        headline: Nieuws overzicht
         type: pagesdisplay
-        query: site.find("news")
+        query: site.children.filterBy("title","Nieuws")
+        help: Klik hier om een overzicht van alle posts te krijgen en om een nieuwe te maken.
 
       haedline_field:
         type: fields

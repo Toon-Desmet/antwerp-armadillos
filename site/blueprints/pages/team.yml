@@ -4,12 +4,13 @@ tabs:
     label: algemeen
     icon: dashboard
     sections:
-      carrousel:
+      carousel:
         type: files
         template: image
         layout: cards
         min: 1
         max: 10
+        help: Upload hier foto's voor de carousel. Geef de geuploade foto's altijd een goede naam en een alt tekst.
         image: 
           ratio: 1/1
 
@@ -19,6 +20,7 @@ tabs:
         type: pages
         templates: team_member
         status: draft
+        help: Klik hier om nieuwe teamleden toe te voegen.
 
       all_team_general:
         headline: All team members
@@ -49,6 +51,7 @@ tabs:
             type: pages
             templates: team_member
             status: draft
+            help: Klik hier om nieuwe teamleden toe te voegen.
 
           all_team:
             headline: All team members
@@ -81,6 +84,7 @@ tabs:
             type: pages
             templates: team_member
             status: draft
+            help: Klik hier om nieuwe teamleden toe te voegen.
 
           all_team:
             headline: All team members
@@ -134,6 +138,7 @@ tabs:
             type: pages
             templates: team_member
             status: draft
+            help: Klik hier om nieuwe teamleden toe te voegen.
 
           all_team:
             headline: All team members
@@ -187,6 +192,7 @@ tabs:
             type: pages
             templates: team_member
             status: draft
+            help: Klik hier om nieuwe teamleden toe te voegen.
 
           all_team:
             headline: All team members
