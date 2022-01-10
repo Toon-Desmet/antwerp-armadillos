@@ -22,13 +22,13 @@ if (!$group) {
         </ul>
     </nav>
 
-    <carousel>
+    <!-- <carousel>
         <?php foreach ($page->images() as $image) : ?>
             <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
         <?php endforeach ?>
         <button onclick="">&#8249;</button>
         <button onclick="">&#8250;</button>
-    </carousel>
+    </carousel> -->
 
     <?php if ($group === $board) : ?>
         <div class="teams--container">

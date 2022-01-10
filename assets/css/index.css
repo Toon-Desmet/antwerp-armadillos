@@ -184,7 +184,7 @@ h4 {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .nav--teams {
@@ -500,6 +500,32 @@ a {
   .banner--container .banner a {
     bottom: -10%;
     left: 15%;
+  }
+
+  .teams--container .teams--members grid {
+    padding: 70px 10px;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+  }
+  .teams--container .teams--members grid figure {
+    margin: 0 0 20px 0;
+  }
+  .teams--container .teams--members grid figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 
   header {
