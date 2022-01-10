@@ -516,6 +516,11 @@ a {
     object-fit: cover;
   }
 
+  .container--contact-info {
+    align-items: center;
+    text-align: center;
+  }
+
   h1 {
     font-size: 48px;
   }
