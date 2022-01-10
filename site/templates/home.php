@@ -4,7 +4,9 @@
     <div class="hero">
 
         <?php if ($page->image()->url()) : ?>
-            <img src="<?= $page->image()->url() ?>" alt="<?= $page->image()->alt() ?>">
+            <div class="hero--image">
+                <img class="image--hero" src="<?= $page->image()->url() ?>" alt="<?= $page->image()->alt() ?>">
+            </div>
         <?php endif ?>
         <div class="hero--text">
             <h1><?= $site->team_title() ?></h1>

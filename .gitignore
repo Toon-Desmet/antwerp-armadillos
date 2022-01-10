@@ -54,3 +54,5 @@ Icon
 
 # Kirby folder
 /kirby
+
+node_modules

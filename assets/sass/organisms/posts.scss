@@ -1,5 +1,5 @@
 .post--container{
-    width: 25%;
+    width: 25vw;
     height: 100%;
     padding: 15px;
     position: relative;
@@ -7,7 +7,7 @@
     background-image: url("../images/post_back.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: contain;
 }
 
 .container{
@@ -18,7 +18,7 @@
 }
 
 .posts--container{
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
     width: 90vw;
     display: grid;
     grid-template-columns: auto auto auto;
