@@ -1,0 +1,25 @@
+.posts--container{
+    margin: 100px 0 100px 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+    .post--container{
+        width: 32vw;
+        height: 70%;
+        background-size: cover;
+    }
+}
+
+.banner--container{
+    align-items: center;
+    .banner{
+        width: 100vw;
+        background-size: 100vw 200px;
+        a{
+            bottom: -10%;
+            left: 15%;
+        }
+    }
+}

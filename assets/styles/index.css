@@ -476,7 +476,32 @@ a {
   padding: 0 10px 0 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+  .posts--container {
+    margin: 100px 0 100px 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  .posts--container .post--container {
+    width: 32vw;
+    height: 70%;
+    background-size: cover;
+  }
+
+  .banner--container {
+    align-items: center;
+  }
+  .banner--container .banner {
+    width: 100vw;
+    background-size: 100vw 200px;
+  }
+  .banner--container .banner a {
+    bottom: -10%;
+    left: 15%;
+  }
+
   header {
     position: relative;
   }
@@ -519,9 +544,5 @@ a {
     justify-content: center;
     align-items: center;
     width: 80vw;
-  }
-
-  .button--primary {
-    display: none;
   }
 }
