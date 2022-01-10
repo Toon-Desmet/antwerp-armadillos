@@ -525,21 +525,24 @@ a {
     width: 90vw;
   }
 
-  article {
+  .wat-is-lacrosse--article {
+    width: 90vw !important;
+  }
+  .wat-is-lacrosse--article article {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 10px 0 !important;
   }
-  article .article--images {
+  .wat-is-lacrosse--article article .article--images {
     width: 90% !important;
   }
-  article .article--text {
+  .wat-is-lacrosse--article article .article--text {
     width: 100% !important;
     margin: 0 0 30px 0;
   }
-  article .article--text p {
+  .wat-is-lacrosse--article article .article--text p {
     font-size: 15px;
   }
 
