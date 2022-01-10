@@ -19,7 +19,7 @@
                     <img class="arrow arrow--up<?= $i ?>" src="./assets/images/arrow_up.png" alt="">
                 </div>
             </div>
-            <article class="article<?= $i ?>">
+            <article class="article article<?= $i ?>">
                 <div class="article--text">
                     <p><?= $tab->text() ?></p>
                 </div>
