@@ -97,6 +97,19 @@ a{
         }
     }
 
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer--element{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+        }
+    }
+
     .button--primary{
         display: none;
     }
