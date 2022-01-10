@@ -10,4 +10,14 @@ $(() => {
             $(".arrow--down"+i).toggle();
         });
     }
+
+
+    $(".nav--cross").hide();
+    $(".nav--popout-links").hide();
+    
+    $(".toggle").on("click", function(){
+        $(".nav--hamburger").toggle();
+        $(".nav--cross").toggle();
+        $(".nav--popout-links").slideToggle();
+    });
 })

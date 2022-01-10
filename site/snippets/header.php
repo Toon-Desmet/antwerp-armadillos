@@ -24,6 +24,16 @@
             <img src="./assets/images/Armadillos_logo_500x500.jpg" alt="">
         </a>
 
+
+        <nav class="nav--popout">
+            <img class="nav--hamburger toggle" src="./assets/images/hamburger.svg" alt="">
+            <img class="nav--cross toggle" src="./assets/images/cross.svg" alt="">
+            <div class="nav--popout-links">
+                <?php foreach ($site->children()->listed() as $links) : ?>
+                    <a class="nav--popout-links-link" href=<?php echo $links->url() ?>><?php echo $links->title() ?></a>
+                <?php endforeach ?>
+            </div>
+        </nav>
         <nav class="nav--links">
             <?php foreach ($site->children()->listed() as $links) : ?>
                 <a class="nav--links-link" href=<?php echo $links->url() ?>><?php echo $links->title() ?></a>

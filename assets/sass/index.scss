@@ -58,3 +58,46 @@ a{
         padding: 0 10px 0 0 ;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    header{
+        .nav--links{
+            display: none;
+        }
+        position: relative;
+
+        .nav--popout{
+
+            img{
+                display: block;
+                width: 50px;
+                height: 50px;
+            }
+
+            .nav--popout-links{
+                position: absolute;
+                background-color: white;
+                width: 100vw;
+                left: 0;
+                top: 99%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                z-index: 3;
+
+                .nav--popout-links-link{
+                    padding: 20px 0;
+                    width: 100%;
+                    border-top: black solid 1px;
+                    text-align: center;
+                    align-items: center;
+                }
+            }   
+        }
+    }
+
+    .button--primary{
+        display: none;
+    }
+}
