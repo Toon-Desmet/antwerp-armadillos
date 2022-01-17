@@ -1,0 +1,33 @@
+.container--contact-info{
+    align-items: center;
+    text-align: center;
+}
+
+.container--info{
+    p{
+        width: 90vw;
+    }
+}
+
+.wat-is-lacrosse--article{
+    width: 90vw !important;
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0 !important;
+
+        .article--images{
+            width: 90% !important;
+        }
+
+        .article--text{
+            width: 100% !important;
+            margin: 0 0 30px 0;
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}

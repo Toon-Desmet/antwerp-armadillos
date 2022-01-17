@@ -3,7 +3,6 @@
 @import "./pages/pages.scss";
 @import "./molecules/molecules.scss";
 
-
 *{
     margin: 0;
     padding: 0;
@@ -59,7 +58,23 @@ a{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+
+    @import "./phone/atoms/atoms.scss";
+    @import "./phone/molecules/molecules.scss";
+    @import "./phone/organisms/organisms.scss";
+    @import "./phone/pages/pages.scss";
+
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 16px;
+    }
+
     header{
         .nav--links{
             display: none;
@@ -97,7 +112,16 @@ a{
         }
     }
 
-    .button--primary{
-        display: none;
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer--element{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+        }
     }
 }

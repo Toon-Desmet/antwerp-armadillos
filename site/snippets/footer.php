@@ -19,7 +19,7 @@
         </div>
         <div class="footer--element footer--design-element">
             <p>Webdesign by</p>
-            <img src="assets/images/SAM.png" alt="logo of SAM">
+            <img src="assets/images/SAM.svg" alt="logo of SAM">
         </div>
     </footer>
     </body>
