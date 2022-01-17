@@ -546,6 +546,10 @@ a {
     font-size: 15px;
   }
 
+  .training--container {
+    padding: 0;
+  }
+
   h1 {
     font-size: 48px;
   }
