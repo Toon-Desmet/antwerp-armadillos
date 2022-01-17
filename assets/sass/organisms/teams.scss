@@ -11,14 +11,12 @@
         width: 100%;
 
         grid{
+            width: 100%;
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: 20vw 20vw 20vw 20vw;
             grid-gap: 50px;
             padding: 50px 50px;
             text-align: center;
-            figure{
-                width: 20vw;
-            }
         }
     }
 }
