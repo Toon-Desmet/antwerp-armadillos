@@ -16,19 +16,18 @@ if (!$group) {
 <main>
     <nav class="nav--teams">
         <ul class="nav--teams-list">
-            <li><a href="<?= $page->url() . "?group=" . $board ?>"><h2>Bestuur</h2></a></li>
-            <li><a href="<?= $page->url() . "?group=" . $men ?>"><h2>Heren</h2></a></li>
-            <li><a href="<?= $page->url() . "?group=" . $women ?>"><h2>Dames</h2></a></li>
+            <li><a href="<?= $page->url() . "?group=" . $board ?>">
+                    <h2>Bestuur</h2>
+                </a></li>
+            <li><a href="<?= $page->url() . "?group=" . $men ?>">
+                    <h2>Heren</h2>
+                </a></li>
+            <li><a href="<?= $page->url() . "?group=" . $women ?>">
+                    <h2>Dames</h2>
+                </a></li>
         </ul>
     </nav>
 
-    <!-- <carousel>
-        <?php foreach ($page->images() as $image) : ?>
-            <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
-        <?php endforeach ?>
-        <button onclick="">&#8249;</button>
-        <button onclick="">&#8250;</button>
-    </carousel> -->
 
     <?php if ($group === $board) : ?>
         <div class="teams--container">
@@ -127,7 +126,7 @@ if (!$group) {
         </div>
         <div class="teams--container">
             <h2>Midfield</h2>
-                <div class="teams--members">
+            <div class="teams--members">
                 <?php snippet('team_members', [
                     'team_members' => collection('team_members')
                         ->filterBy('gender', 'female')
