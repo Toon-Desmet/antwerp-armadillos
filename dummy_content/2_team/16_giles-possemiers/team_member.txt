@@ -1,0 +1,49 @@
+Title: Giles Possemiers
+
+----
+
+Fname: Gilles
+
+----
+
+Lname: Possemiers
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Defence
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

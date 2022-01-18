@@ -12,16 +12,19 @@
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
     <?= css('assets/styles/index.css') ?>
-    <?= js('assets/js/index.js') ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c2920d7ddb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
+        <style>
+            #logo {
+                background-color: black;
+            }
+        </style>
         <a class="logo" href="<?php echo $site->url() ?>">
-            <!-- //TODO change title to armadillos logo-->
-            <img src="./assets/images/Armadillos_logo_500x500.jpg" alt="">
+            <?= svg("assets/images/AntwerpArmadillos_logo.svg") ?>
         </a>
 
 

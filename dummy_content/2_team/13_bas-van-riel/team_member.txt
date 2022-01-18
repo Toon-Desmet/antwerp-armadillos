@@ -1,0 +1,53 @@
+Title: Bas Van Riel
+
+----
+
+Fname: Bas
+
+----
+
+Lname: Van Riel
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2016
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Goalie
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

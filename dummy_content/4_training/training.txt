@@ -1,0 +1,45 @@
+Title: Trainingen
+
+----
+
+Jeugd: Voorlopig geen trainingen
+
+----
+
+Mannen:
+
+Maandag van 20.00 uur tot 22.00 uur
+Woensdag van 20.00 uur tot 22.00 uur
+
+----
+
+Vrouwen:
+
+Maandag van 20.00 uur tot 22.00 uur
+Woensdag van 20.00 uur tot 22.00 uur
+
+----
+
+Interesse:
+
+Ons jeugdteam is in volle opbouw!
+Zoek je een nieuwe, toffe sport? 
+En lijkt lacrosse helemaal je ding, 
+Schrijf je dan in!
+
+----
+
+Location:
+
+lat: 51.1704812
+lon: 4.3707004
+city: Antwerpen
+region: Antwerpen
+country: België
+postcode: "2660"
+address: Albert Einsteinlaan
+osm: 253581927
+
+----
+
+Locatie: Albert Einsteinlaan 50, 2660 Antwerpen

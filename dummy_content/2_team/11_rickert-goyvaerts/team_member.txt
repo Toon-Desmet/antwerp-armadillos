@@ -1,0 +1,53 @@
+Title: Rickert Goyvaerts
+
+----
+
+Fname: Rickert
+
+----
+
+Lname: Goyvaerts
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2019
+
+----
+
+Board-function: 
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Midfield
+
+----
+
+Board: false
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

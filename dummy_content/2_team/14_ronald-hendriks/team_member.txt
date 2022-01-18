@@ -1,0 +1,53 @@
+Title: Ronald Hendriks
+
+----
+
+Fname: Ronald
+
+----
+
+Lname: Hendriks
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2015
+
+----
+
+Board-function: Voorzitter
+
+----
+
+Coaching-team: 
+
+----
+
+Coaching-function: 
+
+----
+
+Position: Defence
+
+----
+
+Board: true
+
+----
+
+Coaching: false
+
+----
+
+Player: true
+
+----
+
+Youth-player: false

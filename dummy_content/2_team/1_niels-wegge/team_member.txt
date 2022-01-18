@@ -1,0 +1,57 @@
+Title: Niels Wegge
+
+----
+
+Fname: Niels
+
+----
+
+Lname: Wegge
+
+----
+
+Gender: male
+
+----
+
+Birthday: 
+
+----
+
+Joined: 2015
+
+----
+
+Board-function: Voorzitter
+
+----
+
+Coaching-team: Heren
+
+----
+
+Coaching-function: Coach
+
+----
+
+Position: Defence
+
+----
+
+Board: true
+
+----
+
+Coaching: true
+
+----
+
+Player: true
+
+----
+
+Youth-player: false
+
+----
+
+Name: Niels Wegge

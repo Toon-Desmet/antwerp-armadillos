@@ -26,4 +26,6 @@
     </footer>
     </body>
 
+    <?= js('assets/js/index.js') ?>
+
     </html>
