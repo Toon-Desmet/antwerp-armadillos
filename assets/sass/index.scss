@@ -17,6 +17,10 @@ header{
     height: 105px;
 }
 
+.nav--popout{
+    display: none;
+}
+
 .nav--links-link{
     padding: 0 15px 0 15px;
 }
@@ -73,6 +77,10 @@ a{
     }
     h3{
         font-size: 16px;
+    }
+
+    .nav--popout{
+        display: block;
     }
 
     header{

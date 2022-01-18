@@ -11,7 +11,7 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <?= js('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js') ?>
     <?= js('assets/js/accordion.js') ?>
 
