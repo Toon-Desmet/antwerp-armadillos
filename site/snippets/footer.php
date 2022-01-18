@@ -1,7 +1,5 @@
     <?php
-    $social_links = $site->social_links()->toStructure();
-    $facebook = $social_links->findBy('social', 'Facebook');
-    $instagram = $social_links->findBy('social', 'Instagram');
+    $socials = $site->social_links()->toStructure();
     ?>
 
     <footer class="footer">
@@ -12,9 +10,13 @@
         <div class="footer--element footer--link-element">
             <h4>CONTACT US:</h4>
             <p>antwerparmadillos@gmail.com</p>
+
             <div>
-                <a href="<?= $facebook->links() ?>" target="_blank"> <?= asset('assets/images/Facebook.svg')->read() ?></a>
-                <a href="<?= $instagram->links() ?>" target="_blank"> <?= asset('assets/images/instagram.svg')->read() ?> </a>
+                <?php foreach ($socials as $social) : ?>
+                    <a href="<?= $social->links() ?>" target="_blank">
+                        <i style="color:white" class="fab fa-<?= strtolower($social->social()) ?>"></i>
+                    </a>
+                <?php endforeach ?>
             </div>
         </div>
         <div class="footer--element footer--design-element">
