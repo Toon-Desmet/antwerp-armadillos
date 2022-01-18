@@ -19,7 +19,7 @@ function build(cb) {
 function styles(){
   return gulp.src("./assets/sass/index.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest('./assets/css'));
+    .pipe(gulp.dest('./assets/styles'));
 }
 
 exports.styles = styles;

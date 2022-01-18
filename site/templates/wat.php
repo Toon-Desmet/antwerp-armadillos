@@ -4,7 +4,7 @@
 
 <main>
 
-    <h1><?= $page->custom_title()->or($page->title()->html()) ?></h1>
+    <h1 class="title"><?= $page->custom_title()->or($page->title()->html()) ?></h1>
 
     <accordion>
         <div class="hide">

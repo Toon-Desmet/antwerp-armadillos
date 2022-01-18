@@ -16,6 +16,7 @@
 }
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #71b1df;
   cursor: pointer;
 }
 
@@ -84,6 +85,10 @@ h4 {
 .text--link {
   text-decoration: underline;
   font-weight: 300;
+}
+
+.title {
+  padding: 0 0 0 10px;
 }
 
 .post--container {
@@ -200,6 +205,18 @@ h4 {
   list-style: none;
 }
 
+.nav--links-link:hover {
+  color: #71b1df;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  color: #71b1df;
+}
+
 .teams--container {
   display: flex;
   justify-content: center;
@@ -213,7 +230,7 @@ h4 {
   width: 100%;
 }
 .teams--container .teams--members grid {
-  width: 100%;
+  width: 90vw;
   display: grid;
   grid-template-columns: 20vw 20vw 20vw 20vw;
   grid-gap: 50px;

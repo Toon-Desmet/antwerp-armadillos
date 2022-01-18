@@ -1,3 +1,5 @@
+@import "../vars.scss";
+
 .nav--teams{
     margin: 25px 0;
 
@@ -11,4 +13,19 @@
             list-style: none;
         }
     }
+}
+
+.nav--links-link{
+    &:hover{
+        color: $blue--hover;
+    }
+
+}
+
+.hide{
+    display: none;
+}
+
+.active{
+    color: $blue--hover;
 }
