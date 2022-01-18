@@ -443,6 +443,10 @@ accordion .wat-is-lacrosse--article article .article--images img {
   font-family: "Inconsolata";
 }
 
+main {
+  min-height: 100vh;
+}
+
 header {
   display: flex;
   justify-content: space-between;
