@@ -533,6 +533,7 @@ a {
   }
 
   .teams--container .teams--members grid {
+    width: 100vw;
     padding: 70px 0;
     justify-content: center;
     grid-template-columns: 20vw 20vw 20vw;
