@@ -56,3 +56,7 @@ Icon
 /kirby
 
 node_modules
+
+/content/*
+/content/site.txt
+/dummy_content
