@@ -11,9 +11,9 @@
     <?php else : ?>
         <title><?= $page->Title() ?> | <?= $site->Title() ?></title>
     <?php endif ?>
-    <link rel="stylesheet" href="assets/styles/index.css">
+    <?= css('assets/styles/index.css') ?>
+    <?= js('assets/js/index.js') ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
@@ -35,9 +35,9 @@
         </nav>
         <nav class="nav--links">
             <div class="hide">
-                <?= $i = 0?>
+                <?= $i = 0 ?>
             </div>
-            <?php foreach ($site->children()->listed() as $links) : $i++?>
+            <?php foreach ($site->children()->listed() as $links) : $i++ ?>
                 <a class="nav--links-link link<?= $i ?>" href=<?php echo $links->url() ?>><?php echo $links->title() ?></a>
             <?php endforeach ?>
         </nav>
