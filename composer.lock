@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a2037f3f9fc3561ea816deb8617c9e6",
+    "content-hash": "03504a49d63a80e7a548980865d46b25",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -128,16 +128,16 @@
         },
         {
             "name": "flokosiol/focus",
-            "version": "3.0.7",
+            "version": "3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flokosiol/kirby-focus.git",
-                "reference": "a906e5f7ef4da2dc23dcb4d681f11b3c7e068ee7"
+                "reference": "96177849a70fdca2ec7b36028f8d9bcaea3393f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flokosiol/kirby-focus/zipball/a906e5f7ef4da2dc23dcb4d681f11b3c7e068ee7",
-                "reference": "a906e5f7ef4da2dc23dcb4d681f11b3c7e068ee7",
+                "url": "https://api.github.com/repos/flokosiol/kirby-focus/zipball/96177849a70fdca2ec7b36028f8d9bcaea3393f6",
+                "reference": "96177849a70fdca2ec7b36028f8d9bcaea3393f6",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
             "description": "Better image cropping for Kirby CMS",
             "support": {
                 "issues": "https://github.com/flokosiol/kirby-focus/issues",
-                "source": "https://github.com/flokosiol/kirby-focus/tree/3.0.7"
+                "source": "https://github.com/flokosiol/kirby-focus/tree/3.0.8"
             },
             "funding": [
                 {
@@ -169,7 +169,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-08-16T20:37:50+00:00"
+            "time": "2022-01-16T22:04:06+00:00"
         },
         {
             "name": "getkirby/cms",
@@ -688,61 +688,6 @@
             "time": "2021-09-27T10:27:14+00:00"
         },
         {
-            "name": "steirico/kirby-plugin-custom-add-fields",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/steirico/kirby-plugin-custom-add-fields.git",
-                "reference": "d07dae1b6d9778d2f7790d96f92bcf89bdd5bc8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/steirico/kirby-plugin-custom-add-fields/zipball/d07dae1b6d9778d2f7790d96f92bcf89bdd5bc8f",
-                "reference": "d07dae1b6d9778d2f7790d96f92bcf89bdd5bc8f",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "autoload": {
-                "files": [
-                    "config.php"
-                ],
-                "psr-4": {
-                    "Steineri\\CustomAddFields\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rico Steiner",
-                    "email": "rico@vweb.ch",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Custom fields for Kirby's add dialog. This plugin allows to define the fields shown on the page add dialog in a page's blueprint.",
-            "keywords": [
-                "add dialog",
-                "add page",
-                "custom add dialog",
-                "custom add dialog field",
-                "custom add field",
-                "custom field",
-                "field",
-                "kirby3",
-                "plugin"
-            ],
-            "support": {
-                "issues": "https://github.com/steirico/kirby-plugin-custom-add-fields/issues",
-                "source": "https://github.com/steirico/kirby-plugin-custom-add-fields/tree/v2.0.0"
-            },
-            "time": "2021-11-13T18:24:54+00:00"
-        },
-        {
             "name": "sylvainjule/autofocus",
             "version": "1.0.2",
             "source": {
@@ -1080,5 +1025,5 @@
         "php": ">=7.4.0 <8.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
