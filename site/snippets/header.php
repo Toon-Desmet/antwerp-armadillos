@@ -19,11 +19,6 @@
 
 <body>
     <header>
-        <style>
-            #logo {
-                background-color: black;
-            }
-        </style>
         <a class="logo" href="<?php echo $site->url() ?>">
             <?= svg("assets/images/AntwerpArmadillos_logo.svg") ?>
         </a>

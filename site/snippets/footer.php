@@ -14,7 +14,7 @@
             <div>
                 <?php foreach ($socials as $social) : ?>
                     <a href="<?= $social->links() ?>" target="_blank">
-                        <i style="color:white" class="fab fa-<?= strtolower($social->social()) ?>"></i>
+                        <i class="fab fa-<?= strtolower($social->social()) ?>"></i>
                     </a>
                 <?php endforeach ?>
             </div>

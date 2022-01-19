@@ -16,17 +16,6 @@
             <?php endif ?>
 
             <form class="form--contact" method="post" action="<?= $page->url() ?>">
-                <style>
-                    .honeypot {
-                        position: absolute;
-                        left: -9999px;
-                    }
-
-                    .button:hover {
-                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-                        cursor: pointer;
-                    }
-                </style>
                 <div class="honeypot">
                     <label for="website">Website <abbr title="required">*</abbr></label>
                     <input type="url" id="website" name="website" tabindex="-1">
