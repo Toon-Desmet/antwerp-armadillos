@@ -5,7 +5,7 @@
     <footer class="footer">
 
         <div class="footer--element">
-            <p>Copyright © <?= e(date("Y") === '2021', '2021', '20201- ' . date("Y")) ?> Antwerp Armadillos Lacrosse | Credits</p>
+            <p>Copyright © <?= e(date("Y") === '2022', '2022', '2022-' . date("Y")) ?> Antwerp Armadillos Lacrosse | Credits</p>
         </div>
         <div class="footer--element footer--link-element">
             <h4>CONTACT US:</h4>
