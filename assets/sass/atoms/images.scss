@@ -3,10 +3,13 @@
 }
 
 .logo{
-    width: 100px;
+    width: 20vw;
     padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 
-    img{
+    img,svg{
         width: 75px;
     }
 }
