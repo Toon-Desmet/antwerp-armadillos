@@ -1,5 +1,7 @@
 $(() => {
     $(".link"+sessionStorage.getItem('link')).addClass("active");
+    $(".nav--cross").hide();
+    $(".nav--popout-links").hide();
 
     for(let i = 0; i < 10; i++){
         $(".article"+i).hide();
@@ -17,9 +19,6 @@ $(() => {
         });
     }
 
-
-    $(".nav--cross").hide();
-    $(".nav--popout-links").hide();
     
     $(".toggle").on("click", function(){
         $(".nav--hamburger").toggle();

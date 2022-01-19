@@ -645,6 +645,10 @@ a {
     display: block;
   }
 
+  .nav--cross {
+    display: none;
+  }
+
   header {
     position: relative;
   }
