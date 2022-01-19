@@ -14,7 +14,6 @@
     <?= css('assets/styles/index.css') ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c2920d7ddb.js" crossorigin="anonymous"></script>
-    <script src="assets/js/index.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
