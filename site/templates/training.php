@@ -27,7 +27,7 @@
         <a class="button button--primary" href="<?= page('contact')->url() ?>">Inschrijven</a>
     </interesse>
 
-    <location class="training--container">
+    <location class="training--container location">
         <h2>Locatie</h2>
         <?php
         $location = $page->location()->yaml();

@@ -401,11 +401,15 @@ accordion .wat-is-lacrosse--article article .article--images img {
   align-items: center;
   flex-direction: column;
   margin: 50px 0;
-  width: 70vw;
+  width: 99vw;
   color: white;
 }
 .training--container h2, .training--container h3, .training--container p, .training--container .button {
   margin: 20px 0 0 0;
+}
+
+.location {
+  color: black;
 }
 
 .background {
@@ -417,14 +421,14 @@ accordion .wat-is-lacrosse--article article .article--images img {
 .background::before {
   content: "";
   background-image: url("../images/article_back.svg");
-  width: 100vw;
   height: 100vh;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   top: 0;
-  left: -15vw;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 
@@ -525,6 +529,11 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
+  #logo {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
   .posts--container {
     margin: 100px 0 100px 0;
     width: 100vw;
@@ -533,9 +542,10 @@ a {
     justify-content: center;
   }
   .posts--container .post--container {
-    min-width: 50vw;
+    min-width: 70vw;
     height: 500px;
     background-size: cover;
+    background-position: 50% 90%;
     padding: 10px;
     margin: 0 0 100px 0;
   }
@@ -603,6 +613,18 @@ a {
 
   .training--container {
     padding: 0;
+  }
+
+  .location {
+    color: black;
+  }
+
+  .training--container {
+    text-align: center;
+    color: black;
+  }
+  .training--container::before {
+    display: none;
   }
 
   h1 {

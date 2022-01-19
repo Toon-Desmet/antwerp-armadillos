@@ -1,3 +1,16 @@
 .training--container{
     padding: 0;
 }
+
+.location{
+    color:black;
+}
+
+.training--container{
+    text-align: center;
+    color: black;
+    
+    &::before{
+        display: none;
+    }
+}
