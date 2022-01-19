@@ -405,6 +405,8 @@ accordion .wat-is-lacrosse--article article .article--images img {
   color: white;
 }
 .training--container h2, .training--container h3, .training--container p, .training--container .button {
+  width: 50%;
+  text-align: center;
   margin: 20px 0 0 0;
 }
 
@@ -422,13 +424,13 @@ accordion .wat-is-lacrosse--article article .article--images img {
   content: "";
   background-image: url("../images/article_back.svg");
   height: 100vh;
+  width: 100vw;
   position: absolute;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 50%;
   background-size: cover;
   top: 0;
-  left: 0;
-  right: 0;
+  left: -1%;
   z-index: -1;
 }
 
