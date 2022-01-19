@@ -25,7 +25,6 @@
         </div>
     </footer>
     </body>
-
-    <?= js('assets/js/index.js') ?>
+    <script src="assets/js/index.js" crossorigin="anonymous"></script>
 
     </html>
