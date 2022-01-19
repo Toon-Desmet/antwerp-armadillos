@@ -54,6 +54,8 @@ function team($positions, string $gender)
 }
 ?>
 
+
+
 <main>
     <nav class="nav--teams">
         <ul class="nav--teams-list">
@@ -68,6 +70,43 @@ function team($positions, string $gender)
                 </a></li>
         </ul>
     </nav>
+
+    <style>
+        .carousel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <div class="carousel">
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <?php foreach ($page->images() as $image) : ?>
+                    <?php if ($image->indexOf() === 0) : ?>
+                        <div class="carousel-item active">
+                        <?php else : ?>
+                            <div class="carousel-item">
+                            <?php endif ?>
+                            <img class="d-block w-100" src="<?= $image->crop(800, 600)->url() ?>" alt="<?= $image->alt() ?>">
+                            </div>
+                        <?php endforeach ?>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+            </div>
+        </div>
+    </div>
 
 
     <?php if ($group === $board) : ?>
