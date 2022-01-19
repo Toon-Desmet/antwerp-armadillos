@@ -1,0 +1,8 @@
+title: Logo
+
+accept:
+  extension: svg
+fields:
+  alt:
+    type: text
+    required: true

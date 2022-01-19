@@ -40,6 +40,8 @@ columns:
         type: files
         max: 1
         layout: cards
+        template: logo
+
       option_fields:
         type: fields
         fields:

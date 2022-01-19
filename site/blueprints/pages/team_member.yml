@@ -71,9 +71,9 @@ columns:
             when:
               coaching: true
             options:
-              - Jeugd
-              - Dames
-              - Heren   
+              - youth: Jeugd
+              - female: Dames
+              - male: Heren   
           coaching_function:
             label: Coaching functie
             type: text

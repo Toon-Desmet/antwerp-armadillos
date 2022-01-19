@@ -19,7 +19,12 @@
 <body>
     <header>
         <a class="logo" href="<?php echo $site->url() ?>">
-            <?= svg("assets/images/AntwerpArmadillos_logo.svg") ?>
+            <?php if (svg($site->image())) {
+                echo svg($site->image());
+            } else {
+                echo $site->title();
+            }
+            ?>
         </a>
 
 
