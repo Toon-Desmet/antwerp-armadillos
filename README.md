@@ -6,6 +6,7 @@ To get started with this project first clone the repo.
     git clone https://github.com/Toon-Desmet/antwerp-armadillos.git
 
 Then run composer and npm
+
     composer install
 
     npm install
