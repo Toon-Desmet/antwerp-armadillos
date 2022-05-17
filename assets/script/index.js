@@ -1,4 +1,6 @@
 $(() => {
+    
+    console.log("test");
     $(".link"+sessionStorage.getItem('link')).addClass("active");
     $(".nav--cross").hide();
     $(".nav--popout-links").hide();

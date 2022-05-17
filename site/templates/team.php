@@ -54,6 +54,7 @@ function team($positions, string $gender)
 }
 ?>
 
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
 
 <main>
@@ -78,7 +79,7 @@ function team($positions, string $gender)
             justify-content: center;
         }
     </style>
-    <div class="carousel">
+    <!-- <div class="carousel">
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -106,7 +107,7 @@ function team($positions, string $gender)
                         </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <?php if ($group === $board) : ?>
